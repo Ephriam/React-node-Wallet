@@ -1,0 +1,48 @@
+.Form {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+}
+
+.FormBody {
+    display: grid;
+    background: #ddd;
+    border: 1px solid #ccc;
+    padding: 24px;
+    transition: all .5s linear;
+}
+
+.FormBody h3 {
+    text-align: center;
+}
+
+.FormBody button {
+    justify-self: center;
+    margin-top: 10px;
+    border: 1px solid yellowgreen;
+    background: rgb(2, 189, 2);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1em;
+}
+
+.FormBody div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-top: 10px;
+}
+
+.FormBody div input {
+    font-size: 1.2em;
+    border: 0;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.Container {
+    display: flex;
+    width: 200%; 
+    overflow: hidden;
+    transition: all .5s ease-in;    
+}

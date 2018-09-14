@@ -1,0 +1,11 @@
+.Backdrop {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: black;
+    opacity: 0.5;
+    z-index: 100;
+    transition: all 0.5 ease-in;
+}

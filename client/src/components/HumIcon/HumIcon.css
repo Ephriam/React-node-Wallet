@@ -1,0 +1,11 @@
+.HumIcon {
+    padding: 10px;
+    cursor: pointer;
+}
+
+ .HumIcon div {
+    width: 30px;
+    height: 5px;
+    background: rgb(2, 189, 2);
+    margin-bottom: 5px;
+}

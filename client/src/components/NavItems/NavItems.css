@@ -1,0 +1,15 @@
+.NavItem {
+    background: rgb(12, 131, 61);
+    padding: 16px;
+    cursor: pointer;
+    color: white;
+    border-bottom: 3px solid rgb(0, 174, 255, 0);
+}
+
+.Active, 
+.NavItem:hover, 
+.NavItem:active {
+    background: rgb(25, 165, 79);
+    border-bottom: 3px solid rgb(0, 174, 255);
+}
+

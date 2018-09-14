@@ -1,0 +1,48 @@
+.Send{
+    display: grid;
+    color: white;
+}
+
+.Send .FormContainer {
+    width: 80%;
+    padding: 36px;
+    background: rgba(11, 158, 114, 0.9);
+    box-shadow: 3px 3px 3px #ddd;
+    border-radius: 5px;
+    display: grid;
+    justify-self: center;
+}
+
+.Send .FormInline {
+    display: flex; 
+    margin: 15px;
+}
+
+.FormInline input{
+    flex: 1;
+    margin-left: 10px;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid white;
+    font-size: 1.1em;
+    color: white;
+}
+
+.FormInline label {
+    padding-top: .4em;
+}
+
+.FormContainer button {
+    margin-top: 20px;
+    justify-self: center;
+    padding: 10px 16px;
+    color: white;
+    border: 1px solid white;
+    background: rgb(16, 190, 124);
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.FormContainer p {
+    justify-self: center;
+}
